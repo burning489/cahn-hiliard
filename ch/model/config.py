@@ -1,0 +1,6 @@
+MU = 1
+N = 60
+T = 200
+EP = 1e-2
+INIT_MODE = 1
+SEED = 10
