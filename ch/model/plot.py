@@ -2,7 +2,9 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 import imageio
-from .config import N
+from .utils import get_args
+conf = get_args()
+N = conf.N
 
 
 def plot_git(c_vecs, ex_name):
