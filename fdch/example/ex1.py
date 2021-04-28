@@ -8,5 +8,4 @@ def ex1(n=5):
     ex_names = ['ex{}'.format(i) for i in range(1, 6)]
     for simulation, ex_name in zip(simulations[:n], ex_names[:n]):
         c_vecs = simulation()
-        # print('end state: ', c_vecs[-1])
         plot_git(c_vecs, ex_name)
